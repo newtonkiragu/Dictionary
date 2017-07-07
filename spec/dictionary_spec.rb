@@ -2,6 +2,10 @@ require('rspec')
 require('dictionary')
 
 describe(Word) do
+  before() do
+    Word.clear
+  end
+
   describe('.all') do
     it('checks if words array is empty at first') do
       Word.all
