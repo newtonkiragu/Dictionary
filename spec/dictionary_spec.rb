@@ -11,17 +11,16 @@ describe(Word) do
 
   describe("#all") do
     it('add a word to the array of saved words') do
-      my_word = Word.new('Nirvana')
-      my_word.save
-      expect(Word.all()).to(eq([my_word]))
+      my_word = Word.new({:word => 'Nirvana'}).save
+      expect(Word.all()).to(eq(my_word))
     end
   end
 
   describe('.clear') do
-    it('empties out of the saved words') do
-      my_word = Word.new('Nirvana')
-      my_word.save
-      expect(Word.clear()).to(eq([]))
+    it('empties out the array of saved words') do
+      my_word = Word.new({:word => 'Nirvana'}).save
+      my_word.clear
+      expect(Word.all()).to(eq([]))
     end
   end
 end
