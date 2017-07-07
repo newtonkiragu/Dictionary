@@ -4,7 +4,7 @@ A ruby program that lets users create a dictionary.
 
 by: [Edward Mudaida](http://edwardmudaida.github.io/)
 
-[view deployed]()
+[view deployed](https://msdictionary.herokuapp.com/)
 
 ## Running the project
 
