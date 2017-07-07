@@ -6,6 +6,10 @@ by: [Edward Mudaida](http://edwardmudaida.github.io/)
 
 [view deployed](https://msdictionary.herokuapp.com/)
 
+## Technologies used
+
+`Ruby` `Sinatra` `RSpec` `Sinatra-contrib` `Bundler`
+
 ## Running the project
 
 1. CLone the repo: `$ git clone [URL]`
