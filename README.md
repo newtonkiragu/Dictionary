@@ -20,7 +20,7 @@ Use `$ rspec` to run tests.
 
 ## Deployment 
 
-[see deployment etails here]()
+[see deployment details here](https://devcenter.heroku.com/articles/getting-started-with-ruby#introduction)
 
 ## LICENSE
 
