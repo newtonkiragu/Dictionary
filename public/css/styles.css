@@ -14,3 +14,43 @@ body {
     width: 50%;
     margin: auto;
 }
+
+.success_word {
+    margin-top: 15%;
+}
+
+.center_links {
+    margin-left: 30%;
+}
+
+.center_links a {
+    padding: 2%;
+}
+
+nav {
+    background-color: transparent;
+}
+
+nav .brand-logo {
+    color: black;
+}
+
+nav ul a {
+    color: black;
+}
+
+.definition_form {
+    margin-top: 15%;
+}
+
+.definition_btn {
+    text-align: center;
+}
+
+.my_words a:hover {
+    text-decoration: underline;
+}
+
+.my_words {
+    text-align: center;
+}
