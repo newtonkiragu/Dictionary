@@ -1,4 +1,9 @@
-<h1>Success!</h1>
-<h3><%= @word %></h3>
-<a href="/">See word List</a>
-<a href="/word/new">Add New word</a>
+<div class="success_word">
+    <h3 class="center-align"><%= @word %> has been added to your dictionary!</h3>
+    <div class="center_links">
+        <a href="/"><button class="waves-effect waves-light btn">View Words</button>
+        </a>
+        <a href="/word/new"><button class="waves-effect waves-light btn">Add New Word</button>
+        </a>
+    </div>
+</div>
