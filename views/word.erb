@@ -1,7 +1,8 @@
-<h1><%= @word.word() %></h1>
-<ul>
+<h3><%= @word.word() %></h3>
+<p>Definitions:</p>
+<ol>
     <% @word.definitions.each do |definition| %>
     <li><%= definition.word %></li>
     <% end %>
-</ul>
-<a href="/words/<%= @word.id%>/definitions/new">Add definition</a>
+</ol>
+<a href="/words/<%= @word.id%>/definitions/new"><button class="waves-effect waves-light btn">Add definition</button></a>
