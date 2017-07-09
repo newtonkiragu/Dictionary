@@ -39,6 +39,10 @@ nav ul a {
     color: black;
 }
 
+nav ul a:hover {
+    background-color: transparent;
+}
+
 .definition_form {
     margin-top: 15%;
 }
