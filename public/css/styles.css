@@ -1,0 +1,16 @@
+body {
+    font-size: 18px
+}
+
+.word_form {
+    margin-top: 15%;
+}
+
+.word_form_btn {
+    text-align: center;
+}
+
+.word_form .input-field {
+    width: 50%;
+    margin: auto;
+}
