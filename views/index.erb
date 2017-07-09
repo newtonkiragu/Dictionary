@@ -1,1 +1,5 @@
-<h1>Dictionary</h1>
+<ul>
+    <% @words.each do |word| %>
+    <h3><li><a href="/words/<%= word.id() %>"><%= word.word %></a></li></h3>
+    <% end %>
+</ul>
