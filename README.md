@@ -10,6 +10,8 @@ by: [Edward Mudaida](http://edwardmudaida.github.io/)
 
 `Ruby` `Sinatra` `RSpec` `Sinatra-contrib` `Bundler`
 
+![Screenshot](screenshot.png)
+
 ## Running the project
 
 1. CLone the repo: `$ git clone [URL]`
@@ -20,9 +22,9 @@ by: [Edward Mudaida](http://edwardmudaida.github.io/)
 
 4. Navigate to [http://localhost:4567/](http://localhost:4567/)
 
-Use `$ rspec` to run tests. 
+Use `$ rspec` to run tests.
 
-## Deployment 
+## Deployment
 
 [see deployment details here](https://devcenter.heroku.com/articles/getting-started-with-ruby#introduction)
 
