@@ -59,7 +59,7 @@ nav {
 
 nav .brand-logo {
     color: black;
-    font-family: times;
+    font-weight: bolder;
 }
 
 nav ul a {
