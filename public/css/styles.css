@@ -1,5 +1,12 @@
 body {
-    font-size: 18px
+    font-size: 18px;
+    font-family: times;
+    background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(https://static.pexels.com/photos/26236/pexels-photo.jpg
+) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .word_form {
@@ -13,6 +20,25 @@ body {
 .word_form .input-field {
     width: 50%;
     margin: auto;
+}
+
+::-webkit-input-placeholder {
+    /* WebKit, Blink, Edge */
+    color: black;
+}
+
+:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: black;
+}
+
+::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: black;
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
 }
 
 .success_word {
@@ -33,6 +59,7 @@ nav {
 
 nav .brand-logo {
     color: black;
+    font-family: times;
 }
 
 nav ul a {
@@ -57,4 +84,5 @@ nav ul a:hover {
 
 .my_words {
     text-align: center;
+    margin-top: 5%;
 }
